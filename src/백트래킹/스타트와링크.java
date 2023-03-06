@@ -23,7 +23,7 @@ public class 스타트와링크 {
     }
 
     public static void combination(int depth,int index) {//조합을하고 된거를 계산을 하면되겄지요?
-        if(depth == arr.length/2){//다 찼으니깐. 이제 계산을 하면 되는 거임.
+        if(depth == arr.length/2){//다 찼으니깐. 이제 계산을 하면 되는
             score();
         }
         for (int i=index;i<arr.length;i++){
