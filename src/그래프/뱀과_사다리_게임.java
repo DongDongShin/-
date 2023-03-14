@@ -59,7 +59,6 @@ public class 뱀과_사다리_게임 {
             }
             for (int i = 1; i <= 6; i++) {
                 int next = curr + i;
-
                 if (next > 100) {//다음 인덱스가
                     continue;
                 }
@@ -67,7 +66,7 @@ public class 뱀과_사다리_게임 {
                     continue;
                 }
                 visit[next] = true;//해당 인덱스를 true;
-                if (move[next] != 0) {//뱀또는 사다리이고 다음 index를 방문하지 않았을때.
+                if (move[next] != 0) {//뱀또는 사다리이고 다음 index를 방문하지 않았을때. &&를 하면... 기초가 부족. 하나
                     if (!visit[move[next]]) {
                         q.offer(move[next]);//다음으로 가는 거임
                         visit[move[next]] = true;
