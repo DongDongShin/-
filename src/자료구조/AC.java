@@ -32,7 +32,7 @@ public class AC {
     }
 
     public static void AC(Deque<Integer> dq, String command) {
-        boolean isRight = true; //처음에는 정방향으로
+        boolean isRight = true; //처음에는 정방향으로 커밋 왜 안돼.
         for (int i = 0; i < command.length(); i++) {
             if (command.charAt(i) == 'R') {//방향을 바꾸는
                 isRight = !isRight;
