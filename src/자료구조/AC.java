@@ -34,7 +34,7 @@ public class AC {
     public static void AC(Deque<Integer> dq, String command) {
         boolean isRight = true; //처음에는 정방향으로
         for (int i = 0; i < command.length(); i++) {
-            if (command.charAt(i) == 'R') {//방향을 바꾸는 거임
+            if (command.charAt(i) == 'R') {//방향을 바꾸는
                 isRight = !isRight;
             } else {
                 if (isRight) {
