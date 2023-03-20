@@ -36,7 +36,6 @@ public class AC {
         for (int i = 0; i < command.length(); i++) {
             if (command.charAt(i) == 'R') {//방향을 바꾸는 거임
                 isRight = !isRight;
-                continue;
             } else {
                 if (isRight) {
                     if (dq.pollFirst() == null) {
