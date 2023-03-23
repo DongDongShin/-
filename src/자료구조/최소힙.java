@@ -37,6 +37,7 @@ public class 최소힙 {
                 if (pq.isEmpty()) {
                     System.out.println(0);
                 }
+
                 else
                     System.out.println(pq.poll());
             }
