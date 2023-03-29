@@ -11,7 +11,7 @@ public class 두큐합같이하기 {
         System.out.println( solution(queue1,queue2));
 
     }
-    /**
+    /**ㅓㅈ
      * 두개의 queue를 받아서 연산을 하나하나 하면서. 최소의 연산을 return하는 거임
      * 일단 큰 queue를 작은 큐에 넘겨주고 그러면 될것 같은데...
      * 종료조건 일단 모든 원소의 합이 홀수이면.. 안됨. 그리고 한 queue의 size가 0이되면 -1 return.
