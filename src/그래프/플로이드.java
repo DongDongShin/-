@@ -52,6 +52,8 @@ public class 플로이드 {
             for (int j = 1; j <= v; j++) {
                 System.out.print(arr[i][j] + " ");
             }
+
+            ///
             System.out.println();
         }
 
