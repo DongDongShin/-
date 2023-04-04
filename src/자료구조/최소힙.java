@@ -12,6 +12,7 @@ public class 최소힙 {
 
     static PriorityQueue<Integer> pq ;
     static ArrayList<Integer> list;
+    ////ㅓㅗ허허허
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
