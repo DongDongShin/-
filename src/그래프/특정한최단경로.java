@@ -72,7 +72,7 @@ public class 특정한최단경로 {
         ans_2+= dijkstra(1,v2);
         ans_2+= dijkstra(v2,v1);
         ans_2+= dijkstra(v1,v);
-
+    //ㄹㅇㄹ
         if (ans_1 >= INF && ans_2 >= INF) {
             sb.append(-1);
         }
