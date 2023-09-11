@@ -55,7 +55,8 @@ public class BOJ14503 {
         map[r][c]=-1;//현재 자리를 청소를 하였음.
 
         for (int i = 0; i < 4; i++) { //이제 탐색을 할거임
-            direction = (direction+3)%4;//반시계 방향으로 90도회전을 하였음. 이제 이걸 가지고 탐색을 해야됨
+            direction = (direction+3)%4;//반시계 방향으로 90도회전을 하였음. 이제 이걸 가지고 탐색을 해야됨 //그니깐 왼쪽으로 돌면서 탐색을 하는거야..
+            //솔직히 이건 지문이 잘못됐다 ㅇㅈ?
             int ny = r + movey[direction];
             int nx = c + movex[direction];
 
