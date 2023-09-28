@@ -40,7 +40,7 @@ public class 꽃길 {
                 for (int j = 1; j <= size - 1; j++) {
                     if(!visited[i][j]){ //일단 해당 범위가 칠해지지 않았으면
                         if (verify(i, j)) {
-                            bt(cnt +1, sum+bloomFlower(i,j));
+                            bt(cnt +1, sum+bloomFlower(i,j));//재귀를 할때 파라미터에 넘기는 값에 유의.. +=를 한다면 결국에는 sum의 값도 변질이 되기때문에 안되잉
                             witherFlower(i,j);
                         }
                     }
