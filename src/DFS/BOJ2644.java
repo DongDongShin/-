@@ -34,6 +34,7 @@ public class BOJ2644 {
         parent = Integer.parseInt(st.nextToken());
 
 
+
         int size = Integer.parseInt(br.readLine());
 
         //한 사람은 한번의 부모만 가능함.. 그러니깐 먼저 등록을하고 양방향에 표시된 거는 자동적으로 자식 - 부모관계가 적립됨.
