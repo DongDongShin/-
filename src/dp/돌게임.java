@@ -11,6 +11,14 @@ public class 돌게임 {
         int n = Integer.parseInt(br.readLine());
 
         int[] arr = new int[n+1];
+        if (n == 1) {
+            System.out.println("SK");
+            System.exit(1);
+        }
+        if (n == 2) {
+            System.out.println("CY");
+            System.exit(1);
+        }
 
         //상근이가 처음 그 다음이 창영이가 함
         //돌이 하나 남으면 상근이가 이김
