@@ -24,7 +24,5 @@ public class Boj_11726 {
         }
         System.out.println(dp[n]%10007);
 
-
-
     }
 }
