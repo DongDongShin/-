@@ -22,6 +22,9 @@ public class 부등호 {
         for (int i = 0; i < size; i++) {
             inputs[i] = st.nextToken().charAt(0);
         }
+
+
+
         backtraking(0);
         Collections.sort(ans);
 
